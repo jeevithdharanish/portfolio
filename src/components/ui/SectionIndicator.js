@@ -33,7 +33,7 @@ const SectionIndicator = () => {
     handleScroll();
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [router.pathname]);
+  }, [router.pathname, sections, setActiveSection]);
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);

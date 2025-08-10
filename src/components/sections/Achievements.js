@@ -92,8 +92,8 @@ const Achievements = () => {
               Ready to Collaborate?
             </h3>
             <p className="text-text-secondary mb-6">
-              I'm always excited to work on new projects and challenges. 
-              Let's build something amazing together!
+              I&apos;m always excited to work on new projects and challenges. 
+              Let&apos;s build something amazing together!
             </p>
             <a
               href="#contact"
